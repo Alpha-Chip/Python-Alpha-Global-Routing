@@ -1,4 +1,4 @@
-# Python Alpha Global Routing
+# PAGR: Python Alpha Global Routing 
 
 Python global router which was made for [ISPD 2024](https://liangrj2014.github.io/ISPD24_contest/) contest.
 
@@ -179,3 +179,18 @@ python evaluate_solution.py -net mempool_tile.net -cap mempool_tile.cap -output 
 
 * **Note 1**: Tests were made on AMD Ryzen Threadripper PRO 5955WX 16-Cores
 * **Note 2**: Different algorithms used in NetworkX and in C-code it explains difference in cost (C-code algorithm is more efficient).
+
+## Citation
+
+For more details, please refer to the publication: [https://doi.org/10.1109/ACCESS.2025.3526722](https://doi.org/10.1109/ACCESS.2025.3526722)
+
+If you find this code useful, please cite it as:
+```
+@article{solovyev2025pagr,
+  title={PAGR: Accelerating Global Routing for VLSI Design Flow},
+  author={Solovyev, Roman A and Mkrtchan, Ilya A and Telpukhov, Dmitry V and Shafeev, Ilya I and Romanov, Aleksandr Y and Stolbikov, Yevgeniy V and Stempkovsky, Alexander L},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
+```
